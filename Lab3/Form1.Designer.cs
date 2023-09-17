@@ -53,7 +53,7 @@
             // pictureBox2
             // 
             pictureBox2.BackColor = Color.Black;
-            pictureBox2.Location = new Point(750, 125);
+            pictureBox2.Location = new Point(830, 125);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(15, 81);
             pictureBox2.TabIndex = 1;
@@ -73,7 +73,7 @@
             // 
             points.AutoSize = true;
             points.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
-            points.Location = new Point(370, 9);
+            points.Location = new Point(419, -7);
             points.Name = "points";
             points.Size = new Size(57, 38);
             points.TabIndex = 3;
@@ -87,7 +87,7 @@
             // speed
             // 
             speed.AutoSize = true;
-            speed.Location = new Point(370, 300);
+            speed.Location = new Point(404, 381);
             speed.Name = "speed";
             speed.Size = new Size(0, 20);
             speed.TabIndex = 4;
@@ -96,7 +96,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(794, 329);
+            ClientSize = new Size(880, 410);
             Controls.Add(speed);
             Controls.Add(points);
             Controls.Add(gameBall);
